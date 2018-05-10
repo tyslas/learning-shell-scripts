@@ -8,8 +8,10 @@ while [ "$#" -gt "0" ]; do
   shift
 done
 
-/usr/local/bin/brew
+# /usr/local/bin/brew --version
+/usr/local/bin/not-a-program
 echo "exit value of the last run command: ${?}"
-if [ "$?" -ne "0" ]; then
-  echo "sorry, we had a problem there!"
+if [ $? -ne 0 ]
+  then
+    echo "sorry, we had a problem there!"
 fi
