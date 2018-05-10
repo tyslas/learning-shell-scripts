@@ -1,4 +1,5 @@
 #!/bin/sh
+# using the Test operator for comparisons
 
 if [ "$X" -lt "0" ]
 then

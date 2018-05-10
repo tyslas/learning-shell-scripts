@@ -1,4 +1,5 @@
 #!/bin/sh
+# While Loop
 
 INPUT_STRING=hello
 while [ "$INPUT_STRING" != "bye" ]

@@ -1,4 +1,5 @@
 #!/bin/sh
+# capturing user input, using pipes, regex
 
 echo -en "please guess the magic number: "
 read X

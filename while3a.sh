@@ -1,4 +1,5 @@
 #!/bin/sh
+# While Loop w/Case statements
 
 while read f
 do

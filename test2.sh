@@ -1,4 +1,5 @@
 #!/bin/sh
+# nested loop with Test operator ([)
 
 X=0
 while [ -n "$X" ]

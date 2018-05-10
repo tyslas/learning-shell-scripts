@@ -1,4 +1,5 @@
 #!/bin/sh
+# capturing user input and setting a variable
 
 echo What is your name?
 read MY_NAME

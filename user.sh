@@ -1,4 +1,6 @@
 #!/bin/sh
+# capturing user input and using it to execute a command 
+# by printing the variable via the ${var} syntax
 
 echo "what is your name?"
 read USER_NAME

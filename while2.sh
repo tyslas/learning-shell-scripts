@@ -1,4 +1,7 @@
 #!/bin/sh
+# While without exit condition - loop must be broken via ^C
+# could be a better way to terminate loops than waiting for a user to type a command
+# depending on the use case
 
 while :
 do
