@@ -11,6 +11,7 @@ do
       ;;
     bye)
       echo "see you again!"
+      break
       ;;
     *)
       echo "sorry, I don't understand"
